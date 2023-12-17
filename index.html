@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utkarsh's Portfolio</title>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Crimson+Pro|Crimson+Text|Hedvig+Letters+Serif"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script
+      src="https://kit.fontawesome.com/270121cb1e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
   <body>
-    <img src="img/coming-soon.png" alt="coming-soon">
-    <h1>Watch this space, Live Soon!</h1>
-  </body>
+    <!-- Navigation Bar -->
 
+    <div>
+      <span class="material-symbols-outlined menu show"> arrow_back_ios </span>
+      <span class="material-symbols-outlined menu hide">
+        arrow_forward_ios
+      </span>
+      <ul class="menu-content">
+        <li>
+          <a href="#about">
+            <span class="material-symbols-outlined"> account_circle </span>About
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            <span class="material-symbols-outlined"> terminal </span> Projects
+          </a>
+        </li>
+        <li>
+          <a href="#resume">
+            <span class="material-symbols-outlined"> contract </span> Resume
+          </a>
+        </li>
+        <li>
+          <a href="#extracurricular">
+            <span class="material-symbols-outlined"> trophy </span>Extra
+            Curricular
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Home Page Content -->
+
+    <div>
+      <a href="/images/myimage2.jpeg">
+        <img class="image" src="/images/myimage2.jpeg" alt="Profile Photo" />
+      </a>
+      <h1 style="margin-top: 5vw"><u>Utkarsh Mandloi</u></h1>
+      <h4>Student NMIMS | C++ | Problem Solving | Data Science Enthusiast</h4>
+      <p class="txt-effect">
+        I'm a second-year student at NMIMS MPSTME University, I am committed to
+        acquiring a solid foundation in computer science. My academic journey
+        has been enhanced by my passion for programming, which has compelled me
+        to explore numerous endeavors and coding challenges.
+      </p>
+      <p>
+        I am proficient in languages such as C++, Python, HTML, CSS and
+        JavaScript, using them to develop functional solutions.
+      </p>
+    </div>
+    <!-- Social Media Links -->
+
+    <div>
+      <hr style="margin: 2vw" />
+      <a href="https://www.linkedin.com/in/utkarshmandloi12/" class="links">
+        <i class="fa-brands fa-linkedin"></i> linkedin
+      </a>
+
+      <a href="mailto:utkarsh12065@gmail.com" class="links">
+        <i class="fa-solid fa-envelope"></i> gmail
+      </a>
+      <a href="https://github.com/utkarshmandloi12" class="links">
+        <i class="fa-brands fa-github fa-l"></i> github </a
+      ><br />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
